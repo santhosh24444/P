@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 26px;
+
+  text-transform: uppercase;
+  font-style: italic;
+  color: #1098ad;
+}
+body {
+  border-top: 10px solid #1098ad;
+  margin: 0;
+  position: relative;
+}
+.post-img {
+  height: auto;
+  width: 500px;
+}
+.container {
+  width: 800px;
+
+  margin: 0 0 auto auto;
+}
+.main-header {
+  height: 80px;
+  background-color: #f7f7f7;
+  margin-bottom: 60px;
+  padding: 20px 40px;
+}
+aside {
+  background-color: #f7f7f7;
+  border: 5px solid #1098ad;
+  padding: 50px;
+}
+article {
+  margin-bottom: 60px;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 22px;
+  margin-bottom: 15px;
+
+  line-height: 1.5;
+}
+li {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 20px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+h1,
+h2,
+h3,
+p,
+h4,
+li {
+  font-family: sans-serif;
+}
+.post-header {
+  margin-bottom: 40px;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+/*article header p {
+  font-style: italic;
+}*/
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related {
+  list-style: none;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+li:nth-child(odd) {
+  color: red;
+}
+article p:last-child {
+  color: red;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(18, 170, 235);
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/*lvha*/
+#copyright {
+  color: red;
+  font-weight: bold;
+}
+
+nav {
+  font-size: 18px;
+  font-weight: bold;
+}
+footer {
+  margin-top: 60px;
+}
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+h2 {
+  background-color: orange;
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
